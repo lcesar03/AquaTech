@@ -8,6 +8,7 @@ body{
 :root {
     --azul: #32b9cd;
     --amarela: #e3b062;
+    --rosa: #ff637b;
 }
 
 .header {
@@ -127,4 +128,90 @@ body{
 
 .footer h4 {
     margin-bottom: 0;
+}
+
+.login .banner{
+    height: 550px;
+    width: 100%;
+}
+
+.login .banner .container .card-login {
+    height: 45%;
+    width: 42%;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+    margin-left: 7%;
+}
+
+.login .banner .container .card h2{
+    color: var(--rosa);
+    font-size: 27px;
+    padding: 0 100px;
+    margin-left: 18%;
+    margin-bottom: 5px;
+}
+
+.formulario .campo input{
+    line-height: 35px;
+    width: 80%;
+    border:  2px solid var(--azul);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.formulario .campo span{
+    color: var(--rosa);
+    margin-left: 10%;
+    font-size: 13px;
+}
+
+.formulario .botao{
+    line-height: 23px;
+    margin-left: 40%;
+    border-radius: 5px;
+    border:  2px solid #e4005A;
+    color: white;
+    background-color: #e4005A;
+    width: 20%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.login .banner .container .card-cadastro {
+    height: 80%;
+    width: 42%;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+    margin-left: 1%;
+}
+
+.card-cadastro .formulario .campo input{
+    line-height: 32px;
+    width: 77%;
+    border:  2px solid var(--azul);
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.card-cadastro .formulario .campo span{
+    color: var(--rosa);
+    margin-left: 12%;
+    font-size: 13px;
+}
+
+.card-cadastro .formulario .botao{
+    line-height: 20px;
+    margin-left: 40%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:  2px solid #e4005A;
+    color: white;
+    background-color: #e4005A;
+    width: 18%;
+    font-size: 14px;
+    font-weight: bold;
 }
